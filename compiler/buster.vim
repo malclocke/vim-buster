@@ -33,6 +33,7 @@ CompilerSet makeprg=buster\ test\ --color\ none
 CompilerSet errorformat=%+A\ %\\+[%.%#]%.%#,
                         \%+E\ %\\+%.%#Error%.%#,
                         \%Z%.%#(%f:%l:%c),
+                        \%Z%.%#@%f:%l,
                         \%-G%.%#
 
 let &cpo = s:cpo_save
