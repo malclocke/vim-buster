@@ -10,7 +10,7 @@ endif
 let s:cpo_save = &cpo
 set cpo-=C
 
-CompilerSet makeprg=buster\ test\ --color\ none
+CompilerSet makeprg=buster\ test\ --color\ none\ $*
 
 " Assertion failure
 " -----------------
